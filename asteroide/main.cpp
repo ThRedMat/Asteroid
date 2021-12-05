@@ -93,8 +93,8 @@ class asteroid : public Entity
 public:
     asteroid()
     {
-        dx = rand() % 6 - 2;
-        dy = rand() % 6 - 2;
+        dx = rand() % 3 - 2;
+        dy = rand() % 3 - 2;
         name = "asteroid";
     }
 
@@ -189,13 +189,13 @@ int main()
     app.setFramerateLimit(60);
 
     Texture t1, t2, t3, t4, t5, t6, t7;
-    t1.loadFromFile("images/spaceship.png");
-    t2.loadFromFile("asteroide\images\background.jpg");
-    t3.loadFromFile("images/explosions/type_C.png");
-    t4.loadFromFile("images/rock.png");
-    t5.loadFromFile("images/fire_blue.png");
-    t6.loadFromFile("images/rock_small.png");
-    t7.loadFromFile("images/explosions/type_B.png");
+    t1;
+    t2;
+    t3;
+    t4;
+    t5;
+    t6;
+    t7;
 
     t1.setSmooth(true);
     t2.setSmooth(true);
